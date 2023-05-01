@@ -3,8 +3,9 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
-set $DOTFILES /home/alext/Documentos/dotfiles/
-# styles - set the folder for your theme definition file
+
+# Themes
+
 #set $theme /usr/share/sway/themes/matcha-green
 set $theme /usr/share/sway/themes/dracula
 
@@ -15,7 +16,7 @@ include $theme/definitions
 include /etc/sway/definitions
 
 # user config
-include $DOTFILES/sway/definitions.d/*.conf
+include $HOME/.config/sway/definitions.d/*.conf
 
 include /etc/sway/inputs/*
 include /etc/sway/outputs/*
@@ -30,6 +31,6 @@ include /etc/sway/modes/*
 include /etc/sway/config.d/*
 
 # user config
-include $DOTFILES/sway/config.d/*.conf
+include $HOME/.config/sway/config.d/*.conf
 
 
