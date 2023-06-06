@@ -23,12 +23,12 @@
     // informational
     "sway/language",
     "custom/github",
-    "custom/clipboard",
+    //"custom/clipboard",
     //"custom/zeit",
     "cpu",
     "memory",
     //"battery",
-    "temperature",
+    //"temperature",
 
     // connecting
     //"network",
@@ -43,7 +43,7 @@
 
     // system
     "custom/sunset",
-    "custom/pacman",
+    //"custom/pacman",
 
     "tray",
     "clock"
