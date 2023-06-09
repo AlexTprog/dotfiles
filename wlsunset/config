@@ -2,8 +2,8 @@
 temp_low=2500
 temp_high=5000
 duration=900
-sunrise=12:00
-sunset=13:00
+sunrise=08:00
+sunset=17:00
 location=on
 fallback_longitude=-76.8
 fallback_latitude=-11.8
