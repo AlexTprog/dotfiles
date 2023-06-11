@@ -14,25 +14,26 @@
   "layer": "top",
 
   // If height property would be not present, it'd be calculated dynamically
-  "height": 30,
+  "height": 10,
   "position": "top",
 
-  "modules-left": ["custom/menu", "sway/workspaces", "custom/scratchpad"],
+  // "modules-left": ["custom/menu", "sway/workspaces", "custom/scratchpad"],
+  "modules-left": ["sway/workspaces", "custom/scratchpad"],
   "modules-center": ["custom/wf-recorder", "sway/mode", "custom/weather"],
   "modules-right": [
     // informational
     "sway/language",
-    "custom/github",
-    "custom/clipboard",
+    // "custom/github",
+    // "custom/clipboard",
     //"custom/zeit",
     "cpu",
     "memory",
     //"battery",
-    "temperature",
+    // "temperature",
 
     // connecting
     //"network",
-    "bluetooth",
+    // "bluetooth",
 
     // media
     "custom/playerctl",
@@ -80,7 +81,7 @@
       "warning": 70,
       "critical": 90
     },
-    "on-click": "swaymsg exec \\$term_float htop"
+    "on-click": "swaymsg exec \\$term_float bpytop"
   },
 
   "memory": {
@@ -90,7 +91,7 @@
       "warning": 70,
       "critical": 90
     },
-    "on-click": "swaymsg exec \\$term_float htop"
+    "on-click": "swaymsg exec \\$term_float bpytop"
   },
 
   "network": {

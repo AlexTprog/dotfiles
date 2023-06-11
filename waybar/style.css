@@ -1,3 +1,4 @@
+@import "mocha.css";
 
 /* =============================================================================
  *
@@ -48,6 +49,7 @@
     margin: 0;
     padding: 0;
     font-family: "RobotoMono Nerd Font", "Roboto Mono", sans-serif;
+    color: @text;
 }
 
 /* The whole bar */
@@ -55,6 +57,8 @@ window#waybar {
     background: @theme_bg_color;
     color: @wm_icon_bg;
     font-size: 14px;
+    background-color: shade(@base, 0.9);
+    border: 2px solid alpha(@crust, 0.3);
 }
 
 /* Each module */

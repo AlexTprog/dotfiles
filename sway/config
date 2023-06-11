@@ -7,10 +7,11 @@
 # Themes
 
 #set $theme /usr/share/sway/themes/matcha-green
-set $theme /usr/share/sway/themes/dracula
+set $theme $HOME/.config/sway/themes/
 
 # theme variables
-include $theme/definitions
+#include $theme/definitions
+include $theme/jetbrainsDarcula
 
 # global variables
 include /etc/sway/definitions
