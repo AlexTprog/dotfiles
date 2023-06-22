@@ -1,0 +1,5 @@
+[Default]
+save_dir=${XDG_SCREENSHOTS_DIR:-$HOME/Screenshots}
+save_filename_format=screeshot-%d%m%Y-%H%M%S.png
+show_panel=true
+early_exit=true
