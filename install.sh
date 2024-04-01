@@ -6,6 +6,8 @@ dirs=$(ls -d */)
 
 # TODO: create backup
 
+# TODO: install themes if missing
+ 
 # copy files
 for d in $dirs
 do
