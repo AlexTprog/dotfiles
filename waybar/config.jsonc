@@ -19,15 +19,15 @@
 
   // "modules-left": ["custom/menu", "sway/workspaces", "custom/scratchpad"],
   "modules-left": ["sway/workspaces", "custom/scratchpad"],
-  "modules-center": ["custom/wf-recorder", "sway/mode", "custom/weather"],
+  "modules-center": ["custom/wf-recorder", "clock" , "sway/mode" ],//"custom/weather"],
   "modules-right": [
     // informational
     "sway/language",
     // "custom/github",
     // "custom/clipboard",
     //"custom/zeit",
-    "cpu",
-    "memory",
+    // "cpu",
+    // "memory",
     "battery",
     "temperature",
 
@@ -37,16 +37,16 @@
 
     // media
     "custom/playerctl",
-    "idle_inhibitor",
+    // "idle_inhibitor",
     "custom/dnd",
     "pulseaudio",
-    "backlight",
+    // "backlight",
 
     // system
     "custom/sunset",
-    //"custom/pacman",
-    "tray",
-    "clock"
+    "custom/pacman"
+    // "tray",
+    // "clock"
   ],
 
   // -------------------------------------------------------------------------
@@ -67,9 +67,11 @@
 
   "clock": {
     "interval": 60,
-    "format": "{:%e %b %Y %H:%M}",
+    // "format": "{:%e %b %Y %H:%M}",
+    "format": "{:%H:%M}",
     "tooltip": true,
-    "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>",
+    // "tooltip-format": "<big>{:%B %Y}</big>\n<tt>{calendar}</tt>",
+    "tooltip-format": "<big>{:%A %d %b}</big>\n<tt>{calendar}</tt>",
     "on-click": "swaymsg exec \\$calendar"
   },
 

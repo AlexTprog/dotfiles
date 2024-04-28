@@ -85,8 +85,8 @@ window#waybar {
 #custom-sunset,
 #custom-playerctl,
 #tray {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 
@@ -94,7 +94,8 @@ window#waybar {
  * Module styles
  * -------------------------------------------------------------------------- */
 
-#custom-scratchpad, #custom-menu, #workspaces button.focused, #clock  {
+/* #custom-scratchpad, #custom-menu, #workspaces button.focused, #clock  { */
+    #custom-scratchpad, #custom-menu, #workspaces button.focused {
     color: @theme_bg_color;
     background-color: @theme_selected_bg_color;
 }
